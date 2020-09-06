@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommerceMicroServices.Api.product", "EcommerceMicroServices.Api.product\EcommerceMicroServices.Api.product.csproj", "{97D4FFAA-E7F7-4A0F-8431-E75224E8086F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommerceMicroServices.Api.Product", "EcommerceMicroServices.Api.product\EcommerceMicroServices.Api.Product.csproj", "{97D4FFAA-E7F7-4A0F-8431-E75224E8086F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommerceMicroServices.Api.Customer", "EcommerceMicroServices.Api.Customer\EcommerceMicroServices.Api.Customer.csproj", "{AE8DBBD0-57B5-4D12-B52C-11523EB4FEEB}"
 EndProject
