@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{97D4FFAA-E7F7-4A0F-8431-E75224E8086F}|Default">
+  <MonoDevelop.Ide.ItemProperties.EcommerceMicroServices.Api.Product PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="EcommerceMicroServices.Api.product/Core/Entities/Product.cs" Line="9" Column="44" />
+      <File FileName="EcommerceMicroServices.Api.product/Infrastructure/Database/ProductsDbContext.cs" />
+      <File FileName="EcommerceMicroServices.Api.product/Startup.cs" Line="39" Column="31" />
+      <File FileName="EcommerceMicroServices.Api.product/Common/DI/IServiceCollectionExtension.cs" Line="34" Column="72" />
+      <File FileName="EcommerceMicroServices.Api.product/Common/ObjectMapProfiles/ProductsMapProfile.cs" />
+      <File FileName="EcommerceMicroServices.Api.product/Core/Interfaces/IProductCommand.cs" Line="2" Column="11" />
+      <File FileName="EcommerceMicroServices.Api.product/Infrastructure/Data/ProductCommand.cs" Line="43" Column="27" />
+      <File FileName="EcommerceMicroServices.Api.product/Core/Interfaces/IProductQuery.cs" Line="9" Column="23" />
+      <File FileName="EcommerceMicroServices.Api.product/Infrastructure/Data/ProductQuery.cs" Line="27" Column="13" />
+      <File FileName="EcommerceMicroServices.Api.product/Controllers/ProductsController.cs" Line="30" Column="1" />
+      <File FileName="EcommerceMicroServices.Api.product/Properties/launchSettings.json" Line="23" Column="32" />
+      <File FileName="EcommerceMicroServices.Api.product/Common/DI/IApplicationBuilderExtension.cs" Line="14" Column="74" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EcommerceMicroServices" expanded="True">
+            <Node name="EcommerceMicroServices.Api.product" expanded="True" />
+            <Node name="EcommerceMicroServices.Api.Product.Tests" expanded="True">
+              <Node name="Controller" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.EcommerceMicroServices.Api.Product.Tests FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.EcommerceMicroServices.Api.Customer FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.EcommerceMicroServices.Api.product PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
