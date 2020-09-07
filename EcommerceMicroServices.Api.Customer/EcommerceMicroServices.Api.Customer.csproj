@@ -5,4 +5,23 @@
   </PropertyGroup>
 
 
+  <ItemGroup>
+    <Folder Include="Common\" />
+    <Folder Include="Core\" />
+    <Folder Include="Infrastructure\" />
+    <Folder Include="Core\Entities\" />
+    <Folder Include="Core\Models\" />
+    <Folder Include="Core\Interfaces\" />
+    <Folder Include="Infrastructure\Data\" />
+    <Folder Include="Infrastructure\Database\" />
+    <Folder Include="Common\DI\" />
+    <Folder Include="Common\ObjectMapProfiles\" />
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.7" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
+  </ItemGroup>
 </Project>

@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommerceMicroServices.Api.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommerceMicroServices.Api.Product.Tests", "EcommerceMicroServices.Api.Product.Tests\EcommerceMicroServices.Api.Product.Tests.csproj", "{82CC91F4-A185-467C-B3CC-4D368D97717A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommerceMicroServices.Api.Orders", "EcommerceMicroServices.Api.Orders\EcommerceMicroServices.Api.Orders.csproj", "{50D407F5-C1C0-4BD4-A361-4BF8C0D8C3C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommerceMicroService.Api.Search", "EcommerceMicroService.Api.Search\EcommerceMicroService.Api.Search.csproj", "{ADA4D02F-D343-4528-961E-F6195CC7BFCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,5 +29,13 @@ Global
 		{82CC91F4-A185-467C-B3CC-4D368D97717A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82CC91F4-A185-467C-B3CC-4D368D97717A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82CC91F4-A185-467C-B3CC-4D368D97717A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50D407F5-C1C0-4BD4-A361-4BF8C0D8C3C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50D407F5-C1C0-4BD4-A361-4BF8C0D8C3C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50D407F5-C1C0-4BD4-A361-4BF8C0D8C3C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50D407F5-C1C0-4BD4-A361-4BF8C0D8C3C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADA4D02F-D343-4528-961E-F6195CC7BFCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA4D02F-D343-4528-961E-F6195CC7BFCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA4D02F-D343-4528-961E-F6195CC7BFCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA4D02F-D343-4528-961E-F6195CC7BFCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

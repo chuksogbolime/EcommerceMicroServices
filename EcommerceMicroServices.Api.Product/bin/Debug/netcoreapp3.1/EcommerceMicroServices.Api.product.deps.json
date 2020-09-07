@@ -22,7 +22,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "EcommerceMicroServices.Api.product/1.0.0": {
+      "EcommerceMicroServices.Api.Product/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.0.1",
           "Microsoft.EntityFrameworkCore": "3.1.7",
@@ -300,10 +300,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "EcommerceMicroServices.Api.product.dll": {}
+          "EcommerceMicroServices.Api.Product.dll": {}
         },
         "compile": {
-          "EcommerceMicroServices.Api.product.dll": {}
+          "EcommerceMicroServices.Api.Product.dll": {}
         }
       },
       "AutoMapper/10.0.0": {
@@ -2265,7 +2265,7 @@
     }
   },
   "libraries": {
-    "EcommerceMicroServices.Api.product/1.0.0": {
+    "EcommerceMicroServices.Api.Product/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
