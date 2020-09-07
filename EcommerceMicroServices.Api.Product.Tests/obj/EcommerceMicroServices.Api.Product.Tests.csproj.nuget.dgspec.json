@@ -25,8 +25,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.product/EcommerceMicroServices.Api.product.csproj": {
-                "projectPath": "/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.product/EcommerceMicroServices.Api.product.csproj"
+              "/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product/EcommerceMicroServices.Api.Product.csproj": {
+                "projectPath": "/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product/EcommerceMicroServices.Api.Product.csproj"
               }
             }
           }
@@ -40,6 +40,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.5.0, )"
@@ -47,6 +51,10 @@
             "Moq": {
               "target": "Package",
               "version": "[4.14.5, )"
+            },
+            "Shouldly": {
+              "target": "Package",
+              "version": "[3.0.2, )"
             },
             "coverlet.collector": {
               "target": "Package",
@@ -80,14 +88,14 @@
         }
       }
     },
-    "/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.product/EcommerceMicroServices.Api.product.csproj": {
+    "/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product/EcommerceMicroServices.Api.Product.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.product/EcommerceMicroServices.Api.product.csproj",
-        "projectName": "EcommerceMicroServices.Api.product",
-        "projectPath": "/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.product/EcommerceMicroServices.Api.product.csproj",
+        "projectUniqueName": "/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product/EcommerceMicroServices.Api.Product.csproj",
+        "projectName": "EcommerceMicroServices.Api.Product",
+        "projectPath": "/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product/EcommerceMicroServices.Api.Product.csproj",
         "packagesPath": "/Users/chuksogbolime/.nuget/packages/",
-        "outputPath": "/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.product/obj/",
+        "outputPath": "/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/chuksogbolime/.config/NuGet/NuGet.Config"

@@ -62,6 +62,7 @@ namespace EcommerceMicroServices.Api.product.Infrastructure.Data
             catch (Exception ex)
             {
                 _logger.LogError(ex.ToString());
+                
                 return (false, null, ex.Message);
             }
         }
