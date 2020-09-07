@@ -18,7 +18,17 @@ namespace EcommerceMicroServices.Api.product.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            var result = await _query.GetAll();
+            var result = await _query.GetAllAsync();
+            if (result.IsSuccess)
+            {
+                return Ok(result.Products);
+            }
+            return NotFound();
+        }
+        [HttpGet("id")]
+        public async Task<IActionResult> GetGetSingleById(int id)
+        {
+            var result = await _query.GetSingleByIdAsync(id);
             if (result.IsSuccess)
             {
                 return Ok(result.Product);

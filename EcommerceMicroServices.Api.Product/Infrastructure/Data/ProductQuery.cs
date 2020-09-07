@@ -27,14 +27,14 @@ namespace EcommerceMicroServices.Api.product.Infrastructure.Data
             command.SeedData();
         }
 
-        public async Task<(bool IsSuccess, IEnumerable<ProductModel> Product, string ErrorMessage)> GetAll()
+        public async Task<(bool IsSuccess, IEnumerable<ProductModel> Products, string ErrorMessage)> GetAllAsync()
         {
             try
             {
                 var result = await _dbContext.Products.ToListAsync();
                 if (result != null && result.Any())
                 {
-                    var products = _mapper.Map<IEnumerable<ProductModel>>(result);
+                    IEnumerable<ProductModel> products = _mapper.Map<IEnumerable<ProductModel>>(result);
                     return (true, products, null);
                 }
                 return (false, null, "No product found");
@@ -45,6 +45,25 @@ namespace EcommerceMicroServices.Api.product.Infrastructure.Data
                 return (false, null, ex.Message);
             }
             
+        }
+
+        public async Task<(bool IsSuccess, ProductModel Product, string ErrorMessage)> GetSingleByIdAsync(int id)
+        {
+            try
+            {
+                var result = await _dbContext.Products.Where(o=>o.Id==id).FirstOrDefaultAsync();
+                if (result != null)
+                {
+                    ProductModel product = _mapper.Map<ProductModel>(result);
+                    return (true, product, null);
+                }
+                return (false, null, $"Product with Id:{id} was not found");
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.ToString());
+                return (false, null, ex.Message);
+            }
         }
     }
 }

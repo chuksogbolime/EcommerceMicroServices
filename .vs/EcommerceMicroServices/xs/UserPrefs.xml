@@ -1,35 +1,88 @@
-﻿<Properties StartupConfiguration="{97D4FFAA-E7F7-4A0F-8431-E75224E8086F}|Default">
+﻿<Properties StartupConfiguration="{50D407F5-C1C0-4BD4-A361-4BF8C0D8C3C2}|Default">
+  <MonoDevelop.Ide.ItemProperties.EcommerceMicroServices.Api.Orders PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.ItemProperties.EcommerceMicroServices.Api.Product PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="EcommerceMicroServices.Api.product/Core/Entities/Product.cs" Line="9" Column="44" />
-      <File FileName="EcommerceMicroServices.Api.product/Infrastructure/Database/ProductsDbContext.cs" />
-      <File FileName="EcommerceMicroServices.Api.product/Startup.cs" Line="39" Column="31" />
-      <File FileName="EcommerceMicroServices.Api.product/Common/DI/IServiceCollectionExtension.cs" Line="34" Column="72" />
-      <File FileName="EcommerceMicroServices.Api.product/Common/ObjectMapProfiles/ProductsMapProfile.cs" />
-      <File FileName="EcommerceMicroServices.Api.product/Core/Interfaces/IProductCommand.cs" Line="2" Column="11" />
-      <File FileName="EcommerceMicroServices.Api.product/Infrastructure/Data/ProductCommand.cs" Line="43" Column="27" />
-      <File FileName="EcommerceMicroServices.Api.product/Core/Interfaces/IProductQuery.cs" Line="9" Column="23" />
-      <File FileName="EcommerceMicroServices.Api.product/Infrastructure/Data/ProductQuery.cs" Line="27" Column="13" />
-      <File FileName="EcommerceMicroServices.Api.product/Controllers/ProductsController.cs" Line="30" Column="1" />
-      <File FileName="EcommerceMicroServices.Api.product/Properties/launchSettings.json" Line="23" Column="32" />
-      <File FileName="EcommerceMicroServices.Api.product/Common/DI/IApplicationBuilderExtension.cs" Line="14" Column="74" />
+      <File FileName="EcommerceMicroServices.Api.Orders/Core/Models/OrderItemModel.cs" Line="7" Column="9" />
+      <File FileName="EcommerceMicroServices.Api.Orders/Core/Models/OrderModel.cs" Line="12" Column="25" />
+      <File FileName="EcommerceMicroServices.Api.Orders/Core/Entities/Order.cs" Line="12" Column="25" />
+      <File FileName="EcommerceMicroServices.Api.Orders/Core/Entities/OrderItem.cs" Line="11" Column="39" />
+      <File FileName="EcommerceMicroServices.Api.Orders/Core/Interfaces/IOrderCommand.cs" Line="6" Column="9" />
+      <File FileName="EcommerceMicroServices.Api.Orders/Core/Interfaces/IOrderItemCommand.cs" Line="6" Column="9" />
+      <File FileName="EcommerceMicroServices.Api.Orders/Core/Interfaces/IOrderQuery.cs" Line="10" Column="128" />
+      <File FileName="EcommerceMicroServices.Api.Orders/Core/Interfaces/IOrderItemQuery.cs" Line="10" Column="1" />
+      <File FileName="EcommerceMicroServices.Api.Orders/Core/Interfaces/IProvider.cs" Line="8" Column="28" />
+      <File FileName="EcommerceMicroServices.Api.Orders/Infrastructure/Data/OrderCommand.cs" Line="41" Column="42" />
+      <File FileName="EcommerceMicroServices.Api.Orders/Infrastructure/Data/OrderItemCommand.cs" Line="53" Column="42" />
+      <File FileName="EcommerceMicroServices.Api.Orders/Infrastructure/Data/OrderQuery.cs" Line="53" Column="108" />
+      <File FileName="EcommerceMicroServices.Api.Orders/Common/ObjectMapProfiles/OrdersMapProfile.cs" Line="13" Column="52" />
+      <File FileName="EcommerceMicroServices.Api.Orders/Infrastructure/Data/OrderItemQuery.cs" Line="26" Column="15" />
+      <File FileName="EcommerceMicroServices.Api.Orders/Core/UseCase/OrderProvider.cs" Line="26" Column="1" />
+      <File FileName="EcommerceMicroServices.Api.Orders/Controllers/OrdersController.cs" Line="19" Column="57" />
+      <File FileName="EcommerceMicroServices.Api.Customer/Controllers/CustomerController.cs" Line="36" Column="31" />
+      <File FileName="EcommerceMicroServices.Api.Orders/Common/DI/IApplicationBuilderExtension.cs" Line="1" Column="1" />
+      <File FileName="EcommerceMicroServices.Api.Orders/Common/DI/IServiceCollectionExtension.cs" Line="20" Column="52" />
+      <File FileName="EcommerceMicroServices.Api.Customer/Startup.cs" Line="38" Column="13" />
+      <File FileName="EcommerceMicroServices.Api.Orders/Startup.cs" Line="39" Column="33" />
+      <File FileName="EcommerceMicroServices.Api.Orders/Infrastructure/Database/Configuration/OrderConfiguration.cs" Line="9" Column="6" />
+      <File FileName="EcommerceMicroServices.Api.Orders/Infrastructure/Database/Configuration/OrderItemConfiguration.cs" Line="9" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="EcommerceMicroServices" expanded="True">
-            <Node name="EcommerceMicroServices.Api.product" expanded="True" />
-            <Node name="EcommerceMicroServices.Api.Product.Tests" expanded="True">
-              <Node name="Controller" selected="True" />
+          <Node name="EcommerceMicroServices" expanded="True" selected="True">
+            <Node name="EcommerceMicroServices.Api.Customer" expanded="True">
+              <Node name="Common" expanded="True">
+                <Node name="DI" expanded="True" />
+                <Node name="ObjectMapProfiles" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Core" expanded="True">
+                <Node name="Entities" expanded="True" />
+                <Node name="Interfaces" expanded="True" />
+                <Node name="Models" expanded="True" />
+              </Node>
+              <Node name="Infrastructure" expanded="True">
+                <Node name="Data" expanded="True" />
+                <Node name="Database" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+            </Node>
+            <Node name="EcommerceMicroServices.Api.Orders" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Common" expanded="True">
+                <Node name="DI" expanded="True" />
+                <Node name="ObjectMapProfiles" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Core" expanded="True">
+                <Node name="Entities" expanded="True" />
+                <Node name="Interfaces" expanded="True" />
+                <Node name="Models" expanded="True" />
+                <Node name="UseCase" expanded="True" />
+              </Node>
+              <Node name="Infrastructure" expanded="True">
+                <Node name="Data" expanded="True" />
+                <Node name="Database" expanded="True">
+                  <Node name="Configuration" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="EcommerceMicroServices.Api.Product" expanded="True">
+              <Node name="Core" expanded="True">
+                <Node name="Interfaces" expanded="True" />
+                <Node name="Models" expanded="True" />
+              </Node>
+              <Node name="Infrastructure" expanded="True">
+                <Node name="Data" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.EcommerceMicroServices.Api.Product.Tests FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.EcommerceMicroServices.Api.Customer FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.EcommerceMicroServices.Api.Customer PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.EcommerceMicroServices.Api.product PreferredExecutionTarget="/Applications/Safari.app" />
