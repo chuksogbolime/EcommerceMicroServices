@@ -31,6 +31,7 @@
 /Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
 /Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
 /Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product/obj/Debug/netcoreapp3.1/EcommerceMicroServices.Api.Product.csprojAssemblyReference.cache
 /Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product/obj/Debug/netcoreapp3.1/EcommerceMicroServices.Api.Product.AssemblyInfoInputs.cache
 /Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product/obj/Debug/netcoreapp3.1/EcommerceMicroServices.Api.Product.AssemblyInfo.cs
 /Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product/obj/Debug/netcoreapp3.1/EcommerceMicroServices.Api.Product.csproj.CoreCompileInputs.cache
@@ -43,4 +44,3 @@
 /Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product/obj/Debug/netcoreapp3.1/EcommerceMicroServices.Api.Product.dll
 /Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product/obj/Debug/netcoreapp3.1/EcommerceMicroServices.Api.Product.pdb
 /Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product/obj/Debug/netcoreapp3.1/EcommerceMicroServices.Api.Product.genruntimeconfig.cache
-/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product/obj/Debug/netcoreapp3.1/EcommerceMicroServices.Api.Product.csprojAssemblyReference.cache

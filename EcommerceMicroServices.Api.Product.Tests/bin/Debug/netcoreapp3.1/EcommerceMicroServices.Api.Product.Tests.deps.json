@@ -2163,10 +2163,10 @@
           "Swashbuckle.AspNetCore": "5.5.1"
         },
         "runtime": {
-          "EcommerceMicroServices.Api.product.dll": {}
+          "EcommerceMicroServices.Api.Product.dll": {}
         },
         "compile": {
-          "EcommerceMicroServices.Api.product.dll": {}
+          "EcommerceMicroServices.Api.Product.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
