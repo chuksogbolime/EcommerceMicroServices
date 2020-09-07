@@ -24,8 +24,8 @@ namespace EcommerceMicroServices.Api.Customer.Test.Controller
        
 
         [Theory]
-        [InlineData("api/Customers/GetGetSingleById/", 1)]
-        public async Task GetGetSingleById_Should_Return_Ok(string url, int id)
+        [InlineData("api/Customers/GetSingleById/", 1)]
+        public async Task GetSingleById_Should_Return_Ok(string url, int id)
         {
             //Arrange
 
@@ -36,8 +36,8 @@ namespace EcommerceMicroServices.Api.Customer.Test.Controller
         }
 
         [Theory]
-        [InlineData("api/Customers/GetGetSingleById/", int.MaxValue)]
-        public async Task GetGetSingleById_Should_Return_NotFound(string url, int id)
+        [InlineData("api/Customers/GetSingleById/", int.MaxValue)]
+        public async Task GetSingleById_Should_Return_NotFound(string url, int id)
         {
             //Arrange
 

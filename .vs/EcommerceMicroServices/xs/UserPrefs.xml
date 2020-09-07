@@ -1,13 +1,17 @@
 ﻿<Properties StartupConfiguration="{AE8DBBD0-57B5-4D12-B52C-11523EB4FEEB}|Default">
   <MonoDevelop.Ide.ItemProperties.EcommerceMicroServices.Api.Orders PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.ItemProperties.EcommerceMicroServices.Api.Product PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="EcommerceMicroServices.Api.Product/Controllers/ProductsController.cs">
     <Files>
       <File FileName="EcommerceMicroServices.Api.Customer.Test/Controller/CustomerControllerTests.cs" Line="23" Column="9" />
       <File FileName="EcommerceMicroServices.Api.Customer.Test/Data/CustomerQueryTests.cs" />
-      <File FileName="EcommerceMicroServices.Api.Customer.Test/Controller/CustomerControllerIntegrationTests.cs" Line="24" Column="8" />
-      <File FileName="EcommerceMicroServices.Api.Customer.Test/Controller/HttpClientHandlerBase.cs" Line="34" Column="2" />
+      <File FileName="EcommerceMicroServices.Api.Customer.Test/Controller/CustomerControllerIntegrationTests.cs" Line="48" Column="10" />
+      <File FileName="EcommerceMicroServices.Api.Customer.Test/Controller/HttpClientHandlerBase.cs" Line="5" Column="1" />
       <File FileName="EcommerceMicroServices.Api.Customer/Controllers/CustomerController.cs" Line="31" Column="1" />
+      <File FileName="EcommerceMicroServices.Api.Product.Tests/Controller/HttpClientHandlerBase.cs" Line="29" Column="10" />
+      <File FileName="EcommerceMicroServices.Api.Product.Tests/Controller/ProductsControllerTest.cs" Line="14" Column="18" />
+      <File FileName="EcommerceMicroServices.Api.Product.Tests/Controller/ProductsControllerIntegrationTests.cs" Line="13" Column="34" />
+      <File FileName="EcommerceMicroServices.Api.Product/Controllers/ProductsController.cs" Line="29" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,10 +21,16 @@
               <Node name="Controllers" expanded="True" />
             </Node>
             <Node name="EcommerceMicroServices.Api.Customer.Test" expanded="True">
-              <Node name="Controller" expanded="True">
-                <Node name="HttpClientHandlerBase.cs" selected="True" />
-              </Node>
+              <Node name="Controller" expanded="True" />
               <Node name="Data" expanded="True" />
+            </Node>
+            <Node name="EcommerceMicroServices.Api.Product" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="ProductsController.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="EcommerceMicroServices.Api.Product.Tests" expanded="True">
+              <Node name="Controller" expanded="True" />
             </Node>
           </Node>
         </State>

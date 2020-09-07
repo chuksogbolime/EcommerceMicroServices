@@ -67,7 +67,7 @@ namespace EcommerceMicroServices.Api.Product.Tests.Controller
         }
 
         [Fact]
-        public async Task GetGetSingleById_Should_Return_Product_If_Exist()
+        public async Task GetSingleById_Should_Return_Product_If_Exist()
         {
             //Arrange
             int productId = 1;
@@ -82,7 +82,7 @@ namespace EcommerceMicroServices.Api.Product.Tests.Controller
             _productQueryMock.Setup(o => o.GetSingleByIdAsync(productId)).ReturnsAsync(() => (true, product, null));
 
             //Act
-            var result = await _sut.GetGetSingleById(productId);
+            var result = await _sut.GetSingleById(productId);
 
             //Assert
             var okResult = Assert.IsType<OkObjectResult>(result);
@@ -90,14 +90,14 @@ namespace EcommerceMicroServices.Api.Product.Tests.Controller
         }
 
         [Fact]
-        public async Task GetGetSingleById_Should_Return_NotFound_If_Product_Does_Not_Exist()
+        public async Task GetSingleById_Should_Return_NotFound_If_Product_Does_Not_Exist()
         {
             //Arrange
 
             _productQueryMock.Setup(o => o.GetSingleByIdAsync(It.IsAny<int>())).ReturnsAsync(() => (false, null, null));
 
             //Act
-            var result = await _sut.GetGetSingleById(1);
+            var result = await _sut.GetSingleById(1);
 
             //Assert
            

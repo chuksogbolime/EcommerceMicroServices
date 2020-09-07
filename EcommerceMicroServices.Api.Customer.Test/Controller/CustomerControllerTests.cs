@@ -82,7 +82,7 @@ namespace EcommerceMicroServices.Api.Customer.Test.Controller
             _customerQueryMock.Setup(o => o.GetSingleByIdAsync(customerId)).ReturnsAsync(() => (true, customer, null));
 
             //Act
-            var result = await _sut.GetGetSingleById(customerId);
+            var result = await _sut.GetSingleById(customerId);
 
             //Assert
             var okResult = Assert.IsType<OkObjectResult>(result);
@@ -97,7 +97,7 @@ namespace EcommerceMicroServices.Api.Customer.Test.Controller
             _customerQueryMock.Setup(o => o.GetSingleByIdAsync(It.IsAny<int>())).ReturnsAsync(() => (false, null, null));
 
             //Act
-            var result = await _sut.GetGetSingleById(1);
+            var result = await _sut.GetSingleById(1);
 
             //Assert
 
