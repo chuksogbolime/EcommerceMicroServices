@@ -852,6 +852,20 @@
           }
         }
       },
+      "Shouldly/3.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.3.0",
+          "System.Dynamic.Runtime": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Shouldly.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Shouldly.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore/5.5.1": {
         "type": "package",
         "dependencies": {
@@ -2094,7 +2108,7 @@
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
       },
-      "EcommerceMicroServices.Api.product/1.0.0": {
+      "EcommerceMicroServices.Api.Product/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -2105,10 +2119,10 @@
           "Swashbuckle.AspNetCore": "5.5.1"
         },
         "compile": {
-          "bin/placeholder/EcommerceMicroServices.Api.product.dll": {}
+          "bin/placeholder/EcommerceMicroServices.Api.Product.dll": {}
         },
         "runtime": {
-          "bin/placeholder/EcommerceMicroServices.Api.product.dll": {}
+          "bin/placeholder/EcommerceMicroServices.Api.Product.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -3238,6 +3252,25 @@
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.nuspec",
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
+      ]
+    },
+    "Shouldly/3.0.2": {
+      "sha512": "G3+8o4VlT1VsB6hs/ESSDqyLNNHVJuIKCfi/7Ix3mviuqNhOdHTdmJym+04+E3Pj//LmCEfJkOUDrAursHfYew==",
+      "type": "package",
+      "path": "shouldly/3.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Shouldly.dll",
+        "lib/net40/Shouldly.pdb",
+        "lib/net451/Shouldly.dll",
+        "lib/net451/Shouldly.pdb",
+        "lib/netstandard1.3/Shouldly.dll",
+        "lib/netstandard1.3/Shouldly.pdb",
+        "lib/netstandard2.0/Shouldly.dll",
+        "lib/netstandard2.0/Shouldly.pdb",
+        "shouldly.3.0.2.nupkg.sha512",
+        "shouldly.nuspec"
       ]
     },
     "Swashbuckle.AspNetCore/5.5.1": {
@@ -7020,17 +7053,18 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "EcommerceMicroServices.Api.product/1.0.0": {
+    "EcommerceMicroServices.Api.Product/1.0.0": {
       "type": "project",
-      "path": "../EcommerceMicroServices.Api.product/EcommerceMicroServices.Api.product.csproj",
-      "msbuildProject": "../EcommerceMicroServices.Api.product/EcommerceMicroServices.Api.product.csproj"
+      "path": "../EcommerceMicroServices.Api.Product/EcommerceMicroServices.Api.Product.csproj",
+      "msbuildProject": "../EcommerceMicroServices.Api.Product/EcommerceMicroServices.Api.Product.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "EcommerceMicroServices.Api.product >= 1.0.0",
+      "EcommerceMicroServices.Api.Product >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "Moq >= 4.14.5",
+      "Shouldly >= 3.0.2",
       "coverlet.collector >= 1.2.0",
       "xunit >= 2.4.0",
       "xunit.runner.visualstudio >= 2.4.0"
@@ -7060,8 +7094,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.product/EcommerceMicroServices.Api.product.csproj": {
-              "projectPath": "/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.product/EcommerceMicroServices.Api.product.csproj"
+            "/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product/EcommerceMicroServices.Api.Product.csproj": {
+              "projectPath": "/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product/EcommerceMicroServices.Api.Product.csproj"
             }
           }
         }
@@ -7082,6 +7116,10 @@
           "Moq": {
             "target": "Package",
             "version": "[4.14.5, )"
+          },
+          "Shouldly": {
+            "target": "Package",
+            "version": "[3.0.2, )"
           },
           "coverlet.collector": {
             "target": "Package",

@@ -8,9 +8,10 @@
     ".NETCoreApp,Version=v3.1": {
       "EcommerceMicroServices.Api.Product.Tests/1.0.0": {
         "dependencies": {
-          "EcommerceMicroServices.Api.product": "1.0.0",
+          "EcommerceMicroServices.Api.Product": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.5.0",
           "Moq": "4.14.5",
+          "Shouldly": "3.0.2",
           "coverlet.collector": "1.2.0",
           "xunit": "2.4.0",
           "xunit.runner.visualstudio": "2.4.0"
@@ -667,6 +668,19 @@
       "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
+      "Shouldly/3.0.2": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Dynamic.Runtime": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Shouldly.dll": {
+            "assemblyVersion": "3.0.2.0",
+            "fileVersion": "3.0.2.0"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/5.5.1": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "3.0.0",
@@ -1420,7 +1434,7 @@
           "Microsoft.NET.Test.Sdk": "16.5.0"
         }
       },
-      "EcommerceMicroServices.Api.product/1.0.0": {
+      "EcommerceMicroServices.Api.Product/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.0.1",
           "Microsoft.EntityFrameworkCore": "3.1.7",
@@ -1796,6 +1810,13 @@
       "sha512": "sha512-VB5cn/7OzUfzdnC8tqAIMQciVLiq2epm2NrAm1E9OjNRyG4lVhfR61SMcLizejzQP8R8Uf/0l5qOIbUEi+RdEg==",
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "Shouldly/3.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G3+8o4VlT1VsB6hs/ESSDqyLNNHVJuIKCfi/7Ix3mviuqNhOdHTdmJym+04+E3Pj//LmCEfJkOUDrAursHfYew==",
+      "path": "shouldly/3.0.2",
+      "hashPath": "shouldly.3.0.2.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/5.5.1": {
       "type": "package",
@@ -2329,7 +2350,7 @@
       "path": "xunit.runner.visualstudio/2.4.0",
       "hashPath": "xunit.runner.visualstudio.2.4.0.nupkg.sha512"
     },
-    "EcommerceMicroServices.Api.product/1.0.0": {
+    "EcommerceMicroServices.Api.Product/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

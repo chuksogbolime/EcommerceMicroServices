@@ -43,3 +43,4 @@
 /Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product/obj/Debug/netcoreapp3.1/EcommerceMicroServices.Api.Product.dll
 /Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product/obj/Debug/netcoreapp3.1/EcommerceMicroServices.Api.Product.pdb
 /Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product/obj/Debug/netcoreapp3.1/EcommerceMicroServices.Api.Product.genruntimeconfig.cache
+/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product/obj/Debug/netcoreapp3.1/EcommerceMicroServices.Api.Product.csprojAssemblyReference.cache

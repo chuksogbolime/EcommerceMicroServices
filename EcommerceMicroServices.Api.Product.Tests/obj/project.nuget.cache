@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "J0sLWpCG1f1yNji7q0biYiR9AnvoLW4GnIg9lfZWLQAJ85vvsNlsR+MYyOZNW+nh0rk1LHNWpfirMrFQfjCCeA==",
+  "dgSpecHash": "/D3Vkzr1SOOZar6mq5l5gRGFg3mb6HEU0NQQGWmXMZ3dWC1JG5lzrj2VKgrR2tN47/E3JLobOkmu5IRPiJ855A==",
   "success": true,
   "projectFilePath": "/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product.Tests/EcommerceMicroServices.Api.Product.Tests.csproj",
   "expectedPackageFiles": [
@@ -55,6 +55,7 @@
     "/Users/chuksogbolime/.nuget/packages/runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/Users/chuksogbolime/.nuget/packages/runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/Users/chuksogbolime/.nuget/packages/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "/Users/chuksogbolime/.nuget/packages/shouldly/3.0.2/shouldly.3.0.2.nupkg.sha512",
     "/Users/chuksogbolime/.nuget/packages/swashbuckle.aspnetcore/5.5.1/swashbuckle.aspnetcore.5.5.1.nupkg.sha512",
     "/Users/chuksogbolime/.nuget/packages/swashbuckle.aspnetcore.swagger/5.5.1/swashbuckle.aspnetcore.swagger.5.5.1.nupkg.sha512",
     "/Users/chuksogbolime/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.5.1/swashbuckle.aspnetcore.swaggergen.5.5.1.nupkg.sha512",
