@@ -1,16 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using EcommerceMicroServices.Api.Checkout.Common.DI;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 
 namespace EcommerceMicroServices.Api.Checkout
 {
@@ -30,6 +23,7 @@ namespace EcommerceMicroServices.Api.Checkout
             services.ConfigureDependencies();
             services.ResolveSwagger();
             services.AddMediatRDependencies();
+            services.AddFluentValidation();
             services.AddControllers();
         }
 
@@ -47,6 +41,7 @@ namespace EcommerceMicroServices.Api.Checkout
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.AddGlobalExceptionHandler();
 
             app.UseAuthorization();
 

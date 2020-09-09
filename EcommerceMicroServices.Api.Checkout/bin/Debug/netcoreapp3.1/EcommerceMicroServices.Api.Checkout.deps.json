@@ -25,7 +25,9 @@
       "EcommerceMicroServices.Api.Checkout/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.0.1",
+          "FluentValidation": "9.2.0",
           "FluentValidation.AspNetCore": "9.2.0",
+          "FluentValidation.DependencyInjectionExtensions": "9.2.0",
           "MediatR": "8.1.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "8.1.0",
           "Microsoft.EntityFrameworkCore": "3.1.7",
@@ -339,17 +341,45 @@
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
-      "FluentValidation/9.2.0": {},
+      "FluentValidation/9.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.2.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        }
+      },
       "FluentValidation.AspNetCore/9.2.0": {
         "dependencies": {
           "FluentValidation": "9.2.0",
           "FluentValidation.DependencyInjectionExtensions": "9.2.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.2.0.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll": {}
         }
       },
       "FluentValidation.DependencyInjectionExtensions/9.2.0": {
         "dependencies": {
           "FluentValidation": "9.2.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.7"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.2.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll": {}
         }
       },
       "MediatR/8.1.0": {

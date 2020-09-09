@@ -1050,14 +1050,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.product/EcommerceMicroServices.Api.product.csproj",
-      "projectName": "EcommerceMicroServices.Api.product",
-      "projectPath": "/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.product/EcommerceMicroServices.Api.product.csproj",
+      "projectUniqueName": "/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product/EcommerceMicroServices.Api.Product.csproj",
+      "projectName": "EcommerceMicroServices.Api.Product",
+      "projectPath": "/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product/EcommerceMicroServices.Api.Product.csproj",
       "packagesPath": "/Users/chuksogbolime/.nuget/packages/",
-      "outputPath": "/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.product/obj/",
+      "outputPath": "/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/chuksogbolime/.config/NuGet/NuGet.Config"
+        "/Users/chuksogbolime/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

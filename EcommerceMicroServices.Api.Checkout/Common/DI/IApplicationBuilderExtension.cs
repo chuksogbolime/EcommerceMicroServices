@@ -1,4 +1,5 @@
 ﻿using System;
+using EcommerceMicroServices.Api.Checkout.Middlewares;
 using Microsoft.AspNetCore.Builder;
 
 namespace EcommerceMicroServices.Api.Checkout.Common.DI
@@ -23,5 +24,10 @@ namespace EcommerceMicroServices.Api.Checkout.Common.DI
                     .AllowAnyOrigin()
                     .AllowAnyMethod()
                     .AllowAnyHeader());
+
+        public static IApplicationBuilder AddGlobalExceptionHandler(this IApplicationBuilder app)
+            => app.UseMiddleware<GlobalExceptionMiddleware>();
     }
+
+    
 }

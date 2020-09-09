@@ -9,6 +9,9 @@
 /Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Checkout/bin/Debug/netcoreapp3.1/EcommerceMicroServices.Api.Checkout.pdb
 /Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Checkout/bin/Debug/netcoreapp3.1/AutoMapper.dll
 /Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Checkout/bin/Debug/netcoreapp3.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Checkout/bin/Debug/netcoreapp3.1/FluentValidation.dll
+/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Checkout/bin/Debug/netcoreapp3.1/FluentValidation.AspNetCore.dll
+/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Checkout/bin/Debug/netcoreapp3.1/FluentValidation.DependencyInjectionExtensions.dll
 /Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Checkout/bin/Debug/netcoreapp3.1/MediatR.dll
 /Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Checkout/bin/Debug/netcoreapp3.1/MediatR.Extensions.Microsoft.DependencyInjection.dll
 /Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Checkout/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
