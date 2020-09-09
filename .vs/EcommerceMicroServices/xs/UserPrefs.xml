@@ -1,36 +1,34 @@
 ﻿<Properties StartupConfiguration="{AE8DBBD0-57B5-4D12-B52C-11523EB4FEEB}|Default">
   <MonoDevelop.Ide.ItemProperties.EcommerceMicroServices.Api.Orders PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.ItemProperties.EcommerceMicroServices.Api.Product PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="EcommerceMicroServices.Api.Checkout/Middlewares/GlobalExceptionMiddleware.cs">
     <Files>
-      <File FileName="EcommerceMicroServices.Api.Checkout/Controllers/CheckoutController.cs" Line="34" Column="83" />
-      <File FileName="EcommerceMicroServices.Api.Product/Controllers/ProductsController.cs" Line="21" Column="13" />
-      <File FileName="EcommerceMicroServices.Api.Checkout/Command/CreateCheckoutCommand.cs" Line="6" Column="86" />
-      <File FileName="EcommerceMicroServices.Api.Checkout/Data/Entities/Checkout.cs" Line="7" Column="9" />
-      <File FileName="EcommerceMicroServices.Api.Checkout/Models/ApiRequest/CheckoutRequest.cs" Line="8" Column="36" />
-      <File FileName="EcommerceMicroServices.Api.Checkout/RequestHandlers/CreateCheckoutCommandHandler.cs" Line="33" Column="1" />
-      <File FileName="EcommerceMicroServices.Api.Checkout/Data/Interfaces/ICheckoutCommand.cs" Line="8" Column="80" />
-      <File FileName="EcommerceMicroServices.Api.Checkout/Data/InterfaceImpl/CheckoutCommand.cs" Line="28" Column="1" />
-      <File FileName="EcommerceMicroServices.Api.Checkout/Data/InterfaceImpl/CheckoutQuery.cs" Line="50" Column="50" />
-      <File FileName="EcommerceMicroServices.Api.Checkout/Common/DI/IServiceCollectionExtension.cs" Line="20" Column="1" />
-      <File FileName="EcommerceMicroServices.Api.Checkout/RequestHandlers/GetAllCheckoutQueryHandler.cs" Line="27" Column="13" />
-      <File FileName="EcommerceMicroServices.Api.Checkout/Data/CheckoutDbContext.cs" Line="32" Column="1" />
-      <File FileName="EcommerceMicroServices.Api.Checkout/Common/ObjectMapProfiles/CheckoutMapProfile.cs" Line="9" Column="83" />
-      <File FileName="EcommerceMicroServices.Api.Checkout/Data/Interfaces/ICheckoutQuery.cs" Line="10" Column="71" />
-      <File FileName="EcommerceMicroServices.Api.Checkout/Query/GetCheckoutByCustomer.cs" Line="7" Column="39" />
-      <File FileName="EcommerceMicroServices.Api.Checkout/RequestHandlers/GetCheckoutByCustomerHandler.cs" Line="25" Column="75" />
+      <File FileName="EcommerceMicroServices.Api.Checkout/Command/CreateCheckoutCommand.cs" Line="6" Column="39" />
+      <File FileName="EcommerceMicroServices.Api.Checkout/Validators/CreateCheckoutCommandValidation.cs" />
+      <File FileName="EcommerceMicroServices.Api.Checkout/Common/DI/IServiceCollectionExtension.cs" />
+      <File FileName="EcommerceMicroServices.Api.Checkout/Startup.cs" />
+      <File FileName="EcommerceMicroServices.Api.Checkout/PipelineBehaviour/ValidationBehaviour.cs" />
+      <File FileName="EcommerceMicroServices.Api.Checkout/Controllers/CheckoutController.cs" />
+      <File FileName="EcommerceMicroServices.Api.Checkout/Models/ValidationErrorModel.cs" />
+      <File FileName="EcommerceMicroServices.Api.Checkout/Middlewares/GlobalExceptionMiddleware.cs" Line="26" Column="13" />
+      <File FileName="EcommerceMicroServices.Api.Checkout/Common/DI/IApplicationBuilderExtension.cs" />
+      <File FileName="EcommerceMicroServices.Api.Checkout/Data/InterfaceImpl/CheckoutCommand.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="EcommerceMicroServices" expanded="True">
-            <Node name="EcommerceMicroServices.Api.Checkout" selected="True" />
+            <Node name="EcommerceMicroServices.Api.Checkout" expanded="True">
+              <Node name="Middlewares" expanded="True" />
+              <Node name="PipelineBehaviour" expanded="True" />
+            </Node>
+            <Node name="EcommerceMicroServices.Api.Product.Tests" selected="True" />
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="EcommerceMicroServices" expanded="True" selected="True" />
+          <Node name="EcommerceMicroServices" expanded="True" />
         </State>
       </Pad>
     </Pads>
@@ -43,8 +41,7 @@
     <BreakpointStore>
       <Breakpoint file="/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Customer/Controllers/CustomerController.cs" relfile="EcommerceMicroServices.Api.Customer/Controllers/CustomerController.cs" line="31" column="1" />
       <Breakpoint file="/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product/Controllers/ProductsController.cs" relfile="EcommerceMicroServices.Api.Product/Controllers/ProductsController.cs" line="31" column="1" />
-      <Breakpoint file="/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Checkout/Controllers/CheckoutController.cs" relfile="EcommerceMicroServices.Api.Checkout/Controllers/CheckoutController.cs" line="44" column="1" />
-      <Breakpoint file="/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Checkout/Data/InterfaceImpl/CheckoutCommand.cs" relfile="EcommerceMicroServices.Api.Checkout/Data/InterfaceImpl/CheckoutCommand.cs" line="22" column="1" />
+      <Breakpoint file="/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Checkout/PipelineBehaviour/ValidationBehaviour.cs" relfile="EcommerceMicroServices.Api.Checkout/PipelineBehaviour/ValidationBehaviour.cs" line="25" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

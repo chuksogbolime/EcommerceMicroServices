@@ -14,7 +14,7 @@
         "outputPath": "/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/chuksogbolime/.config/NuGet/NuGet.Config"
+          "/Users/chuksogbolime/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

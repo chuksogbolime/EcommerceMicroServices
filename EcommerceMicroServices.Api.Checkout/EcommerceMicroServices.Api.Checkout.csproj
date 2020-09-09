@@ -13,6 +13,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.7" />
     <PackageReference Include="FluentValidation.AspNetCore" Version="9.2.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="9.2.0" />
+    <PackageReference Include="FluentValidation" Version="9.2.0" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Query\" />
@@ -26,5 +28,8 @@
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
     <Folder Include="Models\ApiRequest\" />
+    <Folder Include="Validators\" />
+    <Folder Include="PipelineBehaviour\" />
+    <Folder Include="Middlewares\" />
   </ItemGroup>
 </Project>
