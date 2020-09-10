@@ -3,4 +3,4 @@ This project shows some simple implementations of a set of microservices. It use
 
 The "Api.Checkout" implements the MediatR & CQRS pattern, uses Pipeline Behaviour and FluentValidation for command property validations.
 
-The "Api.Search" project uses IHttpClientFactory to initiate http calls to other services. Polly is added for resilliance. 
+The "Api.Search" project uses IHttpClientFactory to initiate http calls to other services. Polly is added for resilience. 
