@@ -26,7 +26,8 @@ namespace EcommerceMicroServices.Api.Orders.Controllers
             return NotFound();
         }
 
-        [HttpGet("customerId")]
+        [HttpGet("{customerId}")]
+        //[Route("GetOrdersByCustomerIdAsync/{customerId}")]
         public async Task<IActionResult> GetOrdersByCustomerIdAsync(int customerId)
         {
             var result = await _orderProvider.GetOrdersByCustomerIdAsync(customerId);

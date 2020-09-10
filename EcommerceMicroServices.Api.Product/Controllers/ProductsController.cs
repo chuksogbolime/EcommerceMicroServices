@@ -25,8 +25,8 @@ namespace EcommerceMicroServices.Api.product.Controllers
             }
             return NotFound();
         }
-        [HttpGet]
-        [Route("GetSingleById/{id}")]
+        [HttpGet("{id}")]
+        //[Route("GetSingleById/{id}")]
         public async Task<IActionResult> GetSingleById(int id)
         {
             var result = await _query.GetSingleByIdAsync(id);

@@ -7,7 +7,7 @@ namespace EcommerceMicroServices.Api.Orders.Core.Entities
     {
         public Order()
         {
-            Items = new List<OrderItem>();
+            Items = new HashSet<OrderItem>();
         }
         public int OrderId { get; set; }
         public int CustomerId { get; set; }

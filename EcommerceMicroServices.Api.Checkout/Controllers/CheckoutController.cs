@@ -28,7 +28,7 @@ namespace EcommerceMicroServices.Api.Checkout.Controllers
             return NotFound();
         }
 
-        [HttpGet("customerId")]
+        [HttpGet("{customerId}")]
         public async Task<IActionResult> GetByCustomerIdAsync(int customerId)
         {
             var result = await _mediator.Send(new GetCheckoutByCustomer(customerId));

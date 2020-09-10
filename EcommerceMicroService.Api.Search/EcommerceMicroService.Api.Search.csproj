@@ -5,4 +5,18 @@
   </PropertyGroup>
 
 
+  <ItemGroup>
+    <Folder Include="Core\" />
+    <Folder Include="Core\Services\" />
+    <Folder Include="Core\Interfaces\" />
+    <Folder Include="Core\Models\" />
+    <Folder Include="Core\Common\" />
+    <Folder Include="Common\" />
+    <Folder Include="Common\DI\" />
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
+    <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="3.1.8" />
+  </ItemGroup>
 </Project>

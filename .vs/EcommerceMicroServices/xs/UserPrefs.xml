@@ -1,34 +1,40 @@
 ﻿<Properties StartupConfiguration="{AE8DBBD0-57B5-4D12-B52C-11523EB4FEEB}|Default">
   <MonoDevelop.Ide.ItemProperties.EcommerceMicroServices.Api.Orders PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.ItemProperties.EcommerceMicroServices.Api.Product PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="EcommerceMicroServices.Api.Checkout/Middlewares/GlobalExceptionMiddleware.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EcommerceMicroServices.Api.Checkout/Controllers/CheckoutController.cs">
     <Files>
-      <File FileName="EcommerceMicroServices.Api.Checkout/Command/CreateCheckoutCommand.cs" Line="6" Column="39" />
-      <File FileName="EcommerceMicroServices.Api.Checkout/Validators/CreateCheckoutCommandValidation.cs" />
-      <File FileName="EcommerceMicroServices.Api.Checkout/Common/DI/IServiceCollectionExtension.cs" />
-      <File FileName="EcommerceMicroServices.Api.Checkout/Startup.cs" />
-      <File FileName="EcommerceMicroServices.Api.Checkout/PipelineBehaviour/ValidationBehaviour.cs" />
-      <File FileName="EcommerceMicroServices.Api.Checkout/Controllers/CheckoutController.cs" />
-      <File FileName="EcommerceMicroServices.Api.Checkout/Models/ValidationErrorModel.cs" />
-      <File FileName="EcommerceMicroServices.Api.Checkout/Middlewares/GlobalExceptionMiddleware.cs" Line="26" Column="13" />
-      <File FileName="EcommerceMicroServices.Api.Checkout/Common/DI/IApplicationBuilderExtension.cs" />
-      <File FileName="EcommerceMicroServices.Api.Checkout/Data/InterfaceImpl/CheckoutCommand.cs" />
+      <File FileName="EcommerceMicroService.Api.Search/Core/Interfaces/ISearchService.cs" Line="8" Column="83" />
+      <File FileName="EcommerceMicroService.Api.Search/Common/DI/IApplicationBuilderExtension.cs" />
+      <File FileName="EcommerceMicroService.Api.Search/Common/DI/IServiceCollectionExtension.cs" Line="31" Column="77" />
+      <File FileName="EcommerceMicroService.Api.Search/Core/Interfaces/IOrderService.cs" />
+      <File FileName="EcommerceMicroService.Api.Search/Core/Services/OrderService.cs" Line="31" Column="109" />
+      <File FileName="EcommerceMicroService.Api.Search/Core/Services/SearchService.cs" Line="18" Column="1" />
+      <File FileName="EcommerceMicroService.Api.Search/Controllers/SearchController.cs" Line="22" Column="1" />
+      <File FileName="EcommerceMicroService.Api.Search/appsettings.json" Line="11" Column="39" />
+      <File FileName="EcommerceMicroService.Api.Search/Startup.cs" Line="39" Column="33" />
+      <File FileName="EcommerceMicroServices.Api.Orders/Controllers/OrdersController.cs" Line="30" Column="11" />
+      <File FileName="EcommerceMicroServices.Api.Product/Controllers/ProductsController.cs" Line="37" Column="31" />
+      <File FileName="EcommerceMicroServices.Api.Customer/Controllers/CustomerController.cs" Line="28" Column="24" />
+      <File FileName="EcommerceMicroServices.Api.Checkout/Controllers/CheckoutController.cs" Line="31" Column="20" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="EcommerceMicroServices" expanded="True">
             <Node name="EcommerceMicroServices.Api.Checkout" expanded="True">
-              <Node name="Middlewares" expanded="True" />
-              <Node name="PipelineBehaviour" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="CheckoutController.cs" selected="True" />
+              </Node>
             </Node>
-            <Node name="EcommerceMicroServices.Api.Product.Tests" selected="True" />
+            <Node name="EcommerceMicroServices.Api.Orders" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="EcommerceMicroServices" expanded="True" />
+          <Node name="EcommerceMicroServices" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
@@ -42,6 +48,8 @@
       <Breakpoint file="/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Customer/Controllers/CustomerController.cs" relfile="EcommerceMicroServices.Api.Customer/Controllers/CustomerController.cs" line="31" column="1" />
       <Breakpoint file="/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Product/Controllers/ProductsController.cs" relfile="EcommerceMicroServices.Api.Product/Controllers/ProductsController.cs" line="31" column="1" />
       <Breakpoint file="/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroServices.Api.Checkout/PipelineBehaviour/ValidationBehaviour.cs" relfile="EcommerceMicroServices.Api.Checkout/PipelineBehaviour/ValidationBehaviour.cs" line="25" column="1" />
+      <Breakpoint file="/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroService.Api.Search/Controllers/SearchController.cs" relfile="EcommerceMicroService.Api.Search/Controllers/SearchController.cs" line="22" column="1" />
+      <Breakpoint file="/Users/chuksogbolime/Documents/Dev Projects/Projects/EcommerceMicroServices/EcommerceMicroService.Api.Search/Core/Services/OrderService.cs" relfile="EcommerceMicroService.Api.Search/Core/Services/OrderService.cs" line="24" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

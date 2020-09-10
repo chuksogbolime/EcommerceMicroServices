@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using EcommerceMicroService.Api.Search.Common.DI;
 
 namespace EcommerceMicroService.Api.Search
 {
@@ -25,12 +26,17 @@ namespace EcommerceMicroService.Api.Search
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.ConfigureDependencies();
+            services.ConfigureHttpClients(Configuration);
+            services.ResolveSwagger();
             services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.ConfigureSwagger();
+            app.ConfigureCors();
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
