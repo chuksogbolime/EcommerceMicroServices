@@ -8,10 +8,12 @@ namespace EcommerceMicroService.Api.Search.Core.Models
         public Order()
         {
             Items = new List<OrderItem>();
+            Checkout = new Checkout();
         }
         public int OrderId { get; set; }
         public DateTime OrderDate { get; set; }
         public decimal Total { get; set; }
         public IEnumerable<OrderItem> Items { get; set; }
+        public Checkout Checkout { get; set; }
     }
 }

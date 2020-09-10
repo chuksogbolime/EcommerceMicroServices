@@ -17,6 +17,9 @@ namespace EcommerceMicroService.Api.Search.Common.DI
         public static void ConfigureDependencies(this IServiceCollection services)
         {
             services.AddScoped<ISearchService, SearchService>();
+            services.AddScoped<IProductsService, ProductsServices>();
+            services.AddScoped<ICheckoutService, CheckoutService>();
+            services.AddScoped<ICustomerService, CustomerService>();
             services.AddScoped<IOrderService, OrderService>();
             
         }
@@ -32,7 +35,33 @@ namespace EcommerceMicroService.Api.Search.Common.DI
                 
             })
                 .ConfigurePrimaryHttpMessageHandler(() => httpClientHandler)
-                .AddTransientHttpErrorPolicy(r => r.WaitAndRetryAsync(5, _ => TimeSpan.FromMilliseconds(300))); 
+                .AddTransientHttpErrorPolicy(r => r.WaitAndRetryAsync(5, _ => TimeSpan.FromMilliseconds(300)));
+
+            services.AddHttpClient(HttpClientName.PRODUCTS, config =>
+            {
+                config.BaseAddress = new Uri(configuration["Services:Product"]);
+
+
+            })
+                .ConfigurePrimaryHttpMessageHandler(() => httpClientHandler)
+                .AddTransientHttpErrorPolicy(r => r.WaitAndRetryAsync(5, _ => TimeSpan.FromMilliseconds(300)));
+            services.AddHttpClient(HttpClientName.CHECKOUTS, config =>
+            {
+                config.BaseAddress = new Uri(configuration["Services:Checkout"]);
+
+
+            })
+                .ConfigurePrimaryHttpMessageHandler(() => httpClientHandler)
+                .AddTransientHttpErrorPolicy(r => r.WaitAndRetryAsync(5, _ => TimeSpan.FromMilliseconds(300)));
+
+            services.AddHttpClient(HttpClientName.CUSTOMER, config =>
+            {
+                config.BaseAddress = new Uri(configuration["Services:Customer"]);
+
+
+            })
+                .ConfigurePrimaryHttpMessageHandler(() => httpClientHandler)
+                .AddTransientHttpErrorPolicy(r => r.WaitAndRetryAsync(5, _ => TimeSpan.FromMilliseconds(300)));
         }
 
 
