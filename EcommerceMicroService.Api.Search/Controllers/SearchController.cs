@@ -18,7 +18,7 @@ namespace EcommerceMicroService.Api.Search.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> GetOrderSearchResultAsync([FromBody] SearchItem searchItem)
+        public async Task<IActionResult> GetSearchResultAsync([FromBody] SearchItem searchItem)
         {
             var result = await searchService.GetResultAsync(searchItem.CustomerId);
             if (result.IsSuccess)
