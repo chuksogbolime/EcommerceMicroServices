@@ -24,7 +24,7 @@ namespace EcommerceMicroServices.Api.Customer.Test.Controller
        
 
         [Theory]
-        [InlineData("api/Customers/GetSingleById/", 1)]
+        [InlineData("api/Customers/", 1)]
         public async Task GetSingleById_Should_Return_Ok(string url, int id)
         {
             //Arrange
