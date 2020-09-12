@@ -16,12 +16,12 @@ namespace EcommerceMicroServices.Api.Customer.Infrastructure.Data
         readonly CustomersDbContext _dbContext;
         readonly ILogger<CustomerQuery> _logger;
         readonly IMapper _mapper;
-        public CustomerQuery(CustomersDbContext dbContext, ICustomerCommand command, ILogger<CustomerQuery> logger, IMapper mapper)
+        public CustomerQuery(CustomersDbContext dbContext, ILogger<CustomerQuery> logger, IMapper mapper)
         {
             _dbContext = dbContext;
             _logger = logger;
             _mapper = mapper;
-            command.SeedData();
+            
         }
 
         public async Task<(bool IsSuccess, IEnumerable<CustomerModel> Customers, string ErrorMessage)> GetAllAsync()

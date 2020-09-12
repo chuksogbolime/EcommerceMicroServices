@@ -35,9 +35,9 @@ namespace EcommerceMicroService.Api.Search.Core.Services
                     {
                         foreach (var item in order.Items)
                         {
-                            item.ProductName = productResult.Result?.FirstOrDefault(o => o.Id == item.ProductId)?.Name;
+                            item.ProductName = productResult.IsSuccess? productResult.Result?.FirstOrDefault(o => o.Id == item.ProductId)?.Name :"Product Name is not available";
                         }
-                        order.Checkout = checkourResult.Checkouts?.Where(o => o.OrderId == order.OrderId).FirstOrDefault();
+                        order.Checkout = checkourResult.IsSuccess? checkourResult.Checkouts?.Where(o => o.OrderId == order.OrderId).FirstOrDefault(): null;
                     }
                     customerResult.Customer.Orders = orderResult.Result;
                 }

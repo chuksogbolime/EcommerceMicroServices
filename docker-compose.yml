@@ -1,0 +1,36 @@
+version: '3.4'
+
+services:
+  ecommercemicroservices.api.customer:
+    image: ${DOCKER_REGISTRY-}ecommercemicroservicesapi
+    build:
+      context: .
+      dockerfile: EcommerceMicroServices.Api.Customer/Dockerfile
+
+  ecommercemicroservice.api.search:
+    image: ${DOCKER_REGISTRY-}ecommercemicroserviceapi
+    build:
+      context: .
+      dockerfile: EcommerceMicroService.Api.Search/Dockerfile
+
+
+  ecommercemicroservices.api.checkout:
+    image: ${DOCKER_REGISTRY-}ecommercemicroservicesapi
+    build:
+      context: .
+      dockerfile: EcommerceMicroServices.Api.Checkout/Dockerfile
+
+
+  ecommercemicroservices.api.orders:
+    image: ${DOCKER_REGISTRY-}ecommercemicroservicesapi
+    build:
+      context: .
+      dockerfile: EcommerceMicroServices.Api.Orders/Dockerfile
+
+
+  ecommercemicroservices.api.product:
+    image: ${DOCKER_REGISTRY-}ecommercemicroservicesapi
+    build:
+      context: .
+      dockerfile: EcommerceMicroServices.Api.Product/Dockerfile
+
