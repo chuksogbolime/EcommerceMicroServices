@@ -30,5 +30,6 @@
       <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.7" />
       <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
       <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+      <PackageReference Include="NetCoreLoggerAdapter" Version="1.0.0" />
   </ItemGroup>
 </Project>

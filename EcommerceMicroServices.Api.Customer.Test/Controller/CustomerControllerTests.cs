@@ -52,7 +52,7 @@ namespace EcommerceMicroServices.Api.Customer.Test.Controller
         }
 
         [Fact]
-        public async Task GetAll_Should_Return_NotFound_If_No_Product_Exist()
+        public async Task GetAll_Should_Return_NotFound_If_No_Customer_Exist()
         {
             //Arrange
 
@@ -67,7 +67,7 @@ namespace EcommerceMicroServices.Api.Customer.Test.Controller
         }
 
         [Fact]
-        public async Task GetGetSingleById_Should_Return_Product_If_Exist()
+        public async Task GetGetSingleById_Should_Return_Customer_If_Exist()
         {
             //Arrange
             int customerId = 1;
@@ -90,7 +90,7 @@ namespace EcommerceMicroServices.Api.Customer.Test.Controller
         }
 
         [Fact]
-        public async Task GetGetSingleById_Should_Return_NotFound_If_Product_Does_Not_Exist()
+        public async Task GetGetSingleById_Should_Return_NotFound_If_Customer_Does_Not_Exist()
         {
             //Arrange
 

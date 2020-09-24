@@ -29,6 +29,7 @@ namespace EcommerceMicroServices.Api.Customer.Common.DI
             services.AddScoped<IOrderItemCommand, OrderItemCommand>();
             services.AddScoped<IOrderItemQuery, OrderItemQuery>();
             services.AddScoped<IOrderProvider, OrderProvider>();
+            NetCoreLoggerAdapter.DependencyConfiguration.ConfigureLogAdapter(services);
         }
 
         public static void ResolveSwagger(this IServiceCollection services)

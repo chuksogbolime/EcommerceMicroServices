@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommerceMicroServices.Api.
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{16750B91-E39D-4AFD-90A1-F07417B3AC8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcommerceMicroServices.Api.Orders.Tests", "EcommerceMicroServices.Api.Orders.Tests\EcommerceMicroServices.Api.Orders.Tests.csproj", "{3DC0494C-551C-4582-8B5F-715DFECE3831}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,5 +63,9 @@ Global
 		{16750B91-E39D-4AFD-90A1-F07417B3AC8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16750B91-E39D-4AFD-90A1-F07417B3AC8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16750B91-E39D-4AFD-90A1-F07417B3AC8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DC0494C-551C-4582-8B5F-715DFECE3831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC0494C-551C-4582-8B5F-715DFECE3831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC0494C-551C-4582-8B5F-715DFECE3831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC0494C-551C-4582-8B5F-715DFECE3831}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
