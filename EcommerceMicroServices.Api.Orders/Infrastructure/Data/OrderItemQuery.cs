@@ -8,16 +8,18 @@ using EcommerceMicroServices.Api.Orders.Core.Models;
 using EcommerceMicroServices.Api.Orders.Infrastructure.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using NetCoreLoggerAdapter;
 
 namespace EcommerceMicroServices.Api.Orders.Infrastructure.Data
 {
     public class OrderItemQuery :IOrderItemQuery
     {
         readonly OrdersDbContext _dbContext;
-        readonly ILogger<OrderItemQuery> _logger;
+        readonly ILoggerServiceAdapter<OrderItemQuery> _logger;
         readonly IMapper _mapper;
 
-        public OrderItemQuery(OrdersDbContext dbContext, ILogger<OrderItemQuery> logger, IMapper mapper, IOrderCommand orderCommand, IOrderItemCommand orderItemCommand)
+
+        public OrderItemQuery(OrdersDbContext dbContext, ILoggerServiceAdapter<OrderItemQuery> logger, IMapper mapper)
         {
             _dbContext = dbContext;
             _logger = logger;
@@ -42,7 +44,7 @@ namespace EcommerceMicroServices.Api.Orders.Infrastructure.Data
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.ToString());
+                _logger.LogError(ex, ex.ToString());
                 return (false, null, ex.Message);
             }
         }
@@ -61,7 +63,7 @@ namespace EcommerceMicroServices.Api.Orders.Infrastructure.Data
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex.ToString());
+                _logger.LogError(ex, ex.ToString());
                 return (false, null, ex.Message);
             }
         }

@@ -9,12 +9,10 @@ namespace EcommerceMicroServices.Api.Orders.Core.UseCase
     public class OrderProvider : IOrderProvider
     {
         readonly IOrderQuery _query;
-        public OrderProvider(IOrderCommand orderCommand, IOrderItemCommand orderItemCommand, IOrderQuery query)
+        public OrderProvider(IOrderQuery query)
         {
             _query = query;
 
-            orderCommand.SeedData();
-            orderItemCommand.SeedData();
         }
 
         public async Task<(bool IsSuccess, IEnumerable<OrderModel> Orders, string ErrorMessage)> GetOrdersAsync()
